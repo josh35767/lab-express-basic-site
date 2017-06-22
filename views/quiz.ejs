@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link href="/css/style.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1> Quiz </h1>
+      <nav>
+        <a href="/"> Home </a>
+        <a href="/about"> About Kevin </a>
+        <a href="/photos"> Photos </a>
+        <a href="/quiz" class='active'> Quiz </a>
+      </nav>
+    </header>
+    <div class='centerbox quizbox'>
+
+      <h1> Kevin Quiz! </h1>
+      <form id="quiz">
+        <ol>
+        <li> 1. What is Kevin's favorite candy? <br>
+          <input type="radio" name="Q1" value="A1">M&Ms</input><br>
+          <input type="radio" name="Q1" value="A2">Skittles</input><br>
+          <input type="radio" name="Q1" value="A3">Twix</input><br>
+          <input type="radio" name="Q1" value="A4">Hershey's</input><br><br>
+        </li>
+        <li> 2. What is Kevin's favorite thing to cook? <br>
+          <input type="radio" name="Q2" value="A1">Spaghetti</input><br>
+          <input type="radio" name="Q2" value="A2">Chili</input><br>
+          <input type="radio" name="Q2" value="A3">Hamburgers</input><br>
+          <input type="radio" name="Q2" value="A4">Hotdogs</input><br><br>
+        </li>
+        <li> 3. Who is Kevin's ex-fiance? <br>
+          <input type="radio" name="Q3" value="A1">Jillian</input><br>
+          <input type="radio" name="Q3" value="A2">Stacey</input><br>
+          <input type="radio" name="Q3" value="A3">Jannet</input><br>
+          <input type="radio" name="Q3" value="A4">Kelly</input><br><br>
+        </li>
+        <li> 4. What health issue does Kevin suffer? <br>
+          <input type="radio" name="Q4" value="A1">Lung Cancer</input><br>
+          <input type="radio" name="Q4" value="A2">Diabetes</input><br>
+          <input type="radio" name="Q4" value="A3">Anal Fissures</input><br>
+          <input type="radio" name="Q4" value="A4">Acne</input><br>
+        </li>
+        </ol>
+
+        <input type='submit' value="Submit" id='submit'>
+      </form>
+    </div>
+    <script src='/js/jquery.js'></script>
+    <script src='/js/quiz.js'></script>
+    <script src='/js/main.js'></script>
+  </body>
+</html>
